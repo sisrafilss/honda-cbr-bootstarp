@@ -6,7 +6,8 @@ body {
   /* font-family: "Inter", sans-serif;
   font-family: "Manrope", sans-serif; */
 }
-h1 {
+h1,
+h2 {
   font-size: 4rem;
   font-weight: 600;
 }
@@ -34,6 +35,21 @@ h1 {
 }
 .honda-btn-banner {
   padding: 10px 46px;
+}
+.honda-text-primary {
+  color: #e76f51;
+  font-weight: 600;
+}
+.honda-grayscale {
+  filter: grayscale(90%);
+}
+
+/* Some extra media queris beside bootstrap */
+@media only screen and (min-width: 991px) {
+  .honda-feature-bikes {
+    margin-top: 116px !important;
+    margin-bottom: 165px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
