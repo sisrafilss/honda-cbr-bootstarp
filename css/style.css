@@ -3,7 +3,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  /* font-family: "Inter", sans-serif;
+  /* 
   font-family: "Manrope", sans-serif; */
 }
 h1,
@@ -84,6 +84,26 @@ h4 {
 .honda-client-border {
   border: 1px solid #dedede;
 }
+.honda-faq-section {
+  margin-bottom: 8.75rem;
+}
+.honda-faq {
+  font-family: "Inter", sans-serif;
+}
+.honda-faq-question {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #383838;
+  line-height: 1.75rem;
+}
+.honda-faq-answer {
+  line-height: 1.75rem;
+  color: #7e848c;
+}
+.honda-faq-border {
+  border: 1px solid #d5e5fb !important;
+  border-radius: 5px;
+}
 
 /* Some extra media queris beside bootstrap */
 @media only screen and (min-width: 991px) {
@@ -99,7 +119,8 @@ h4 {
   }
 }
 @media only screen and (max-width: 576px) {
-  .honda-header {
+  .honda-header,
+  .faq-section {
     margin-bottom: 8.75rem;
   }
   .honda-modal-btn {
@@ -110,5 +131,11 @@ h4 {
   }
   .honda-happy-clients {
     margin-bottom: 4rem;
+  }
+  .honda-faq-section {
+    margin-bottom: 4rem;
+  }
+  .honda-margin-sm {
+    margin-top: 4rem;
   }
 }
