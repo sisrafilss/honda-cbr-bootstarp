@@ -11,6 +11,10 @@ h2 {
   font-size: 4rem;
   font-weight: 600;
 }
+h3 {
+  font-weight: 600;
+  color: #18191f;
+}
 .honda-btn {
   background: #e76f51;
   border-radius: 5px;
@@ -43,12 +47,25 @@ h2 {
 .honda-grayscale {
   filter: grayscale(90%);
 }
+.honda-btn-blog {
+  padding: 15px;
+  font-weight: 500;
+}
+.honda-card-padding {
+  padding: 20px;
+}
+.honda-box-shadow {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
 
 /* Some extra media queris beside bootstrap */
 @media only screen and (min-width: 991px) {
   .honda-feature-bikes {
     margin-top: 116px !important;
     margin-bottom: 165px;
+  }
+  .honda-latest-news {
+    margin-bottom: 160px;
   }
 }
 
