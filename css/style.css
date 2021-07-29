@@ -3,8 +3,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  /* 
-  font-family: "Manrope", sans-serif; */
 }
 h1,
 h2 {
@@ -110,6 +108,7 @@ h4 {
   background: #0b0d17;
   padding-top: 3.5rem;
   padding-bottom: 6rem;
+  font-family: "Manrope", sans-serif;
 }
 .text-footer {
   color: #d9dbe1;
@@ -149,5 +148,20 @@ h4 {
   }
   .honda-footer-wraper {
     flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .honda-footer-right {
+    margin-left: 1rem;
+  }
+  .copy-right {
+    display: none;
+  }
+  .copy-right-2 {
+    display: block !important;
+    margin-top: 50px;
+  }
+  #footer {
+    padding-top: 4.5rem;
+    padding-bottom: 2.5rem;
   }
 }
