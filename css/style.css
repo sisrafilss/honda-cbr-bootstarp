@@ -1,3 +1,37 @@
-h2 {
-  color: green;
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif; */
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.honda-btn {
+  background: #e76f51;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.honda-btn:hover {
+  color: #e0e0e0;
+}
+
+.honda-header-bg {
+  background: #264653;
+}
+#header-banner {
+  padding-top: 150px;
+  padding-bottom: 96px;
+}
+#header-banner p {
+  color: #e0e0e0;
+  font-weight: 300;
+}
+.honda-btn-banner {
+  padding: 10px 46px;
 }
