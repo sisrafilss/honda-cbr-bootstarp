@@ -1,6 +1,7 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap");
 
+/*========================= Utilities ====================*/
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -23,6 +24,24 @@ h4 {
 .honda-btn:hover {
   color: #e0e0e0;
 }
+.honda-text-primary {
+  color: #e76f51;
+  font-weight: 600;
+}
+.honda-card-padding {
+  padding: 20px;
+}
+.honda-box-shadow {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.honda-text-secondary {
+  color: #23a6f0;
+  font-weight: 600;
+}
+.honda-text-bold {
+  font-weight: 600;
+}
+/*========================= Header CSS ====================*/
 .honda-menu-item {
   font-weight: 500;
 }
@@ -41,26 +60,22 @@ h4 {
 .honda-btn-banner {
   padding: 10px 46px;
 }
-.honda-text-primary {
-  color: #e76f51;
-  font-weight: 600;
-}
+
+/*========================= Feature Bike CSS ====================*/
 .honda-grayscale {
   filter: grayscale(90%);
 }
+
+/*========================= Latest News CSS ====================*/
 .honda-btn-blog {
   padding: 15px;
   font-weight: 500;
 }
-.honda-card-padding {
-  padding: 20px;
-}
-.honda-box-shadow {
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-}
 .honda-latest-news {
   margin-bottom: 160px;
 }
+
+/*========================= Happy Clients CSS ====================*/
 .honda-happy-clients {
   margin-bottom: 9.375rem;
 }
@@ -74,16 +89,11 @@ h4 {
 .hond-client-rating i {
   color: #e76f51;
 }
-.honda-text-secondary {
-  color: #23a6f0;
-  font-weight: 600;
-}
-.honda-text-bold {
-  font-weight: 600;
-}
 .honda-client-border {
   border: 1px solid #dedede;
 }
+
+/*========================= FAQ section CSS ====================*/
 .honda-faq-section {
   margin-bottom: 8.75rem;
 }
@@ -105,9 +115,12 @@ h4 {
   border-radius: 5px;
 }
 
+/*========================= About us CSS ====================*/
 .honda-about-us p {
   text-align: justify;
 }
+
+/*========================= Footer CSS ====================*/
 #footer {
   background: #0b0d17;
   padding-top: 3.5rem;
@@ -118,7 +131,7 @@ h4 {
   color: #d9dbe1;
 }
 
-/* Some extra media queris beside bootstrap */
+/*========================= Extra CSS for responsive beside bootstrap ====================*/
 @media only screen and (min-width: 991px) {
   .honda-feature-bikes {
     margin-top: 116px !important;
