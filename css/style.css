@@ -25,13 +25,15 @@ h4 {
 .honda-btn:hover {
   color: #e0e0e0;
 }
-
+.honda-menu-item {
+  font-weight: 500;
+}
 .honda-header {
   background: #264653;
   margin-bottom: 4rem;
 }
 #header-banner {
-  padding-top: 9.375rem;
+  padding-top: 4.5rem;
   padding-bottom: 6rem;
 }
 #header-banner p {
