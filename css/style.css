@@ -106,6 +106,14 @@ h4 {
   border: 1px solid #d5e5fb !important;
   border-radius: 5px;
 }
+#footer {
+  background: #0b0d17;
+  padding-top: 3.5rem;
+  padding-bottom: 6rem;
+}
+.text-footer {
+  color: #d9dbe1;
+}
 
 /* Some extra media queris beside bootstrap */
 @media only screen and (min-width: 991px) {
@@ -138,5 +146,8 @@ h4 {
   }
   .honda-margin-sm {
     margin-top: 4rem;
+  }
+  .honda-footer-wraper {
+    flex-direction: column;
   }
 }
